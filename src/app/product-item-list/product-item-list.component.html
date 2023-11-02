@@ -1,0 +1,6 @@
+<h2>Список товаров</h2>
+<div style="display: flex">
+    <app-product-item 
+    *ngFor="let product of products" [name]="product.name" [price]="product.price">
+</app-product-item>
+  </div>
