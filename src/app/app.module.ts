@@ -9,12 +9,24 @@ import { MatButtonModule } from '@angular/material/button';
 import { ProductItemComponent } from './product-item/product-item.component';
 import {MatChipsModule} from '@angular/material/chips';
 import { ProductItemListComponent } from './product-item-list/product-item-list.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatInputModule} from '@angular/material/input';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatNativeDateModule} from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductItemComponent,
-    ProductItemListComponent
+    ProductItemListComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +34,16 @@ import { ProductItemListComponent } from './product-item-list/product-item-list.
     BrowserAnimationsModule,
     MatCardModule,
     MatButtonModule,
-    MatChipsModule
+    MatChipsModule,
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatGridListModule,
+    MatBadgeModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatExpansionModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
